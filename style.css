@@ -1,0 +1,154 @@
+*
+{
+	padding:0;
+	margin:0;
+}
+body
+{
+	background-color: cover;
+	background-position: center;
+	box-sizing: border-box;
+	font-family:sans-serif;
+}
+.menu-bar
+{
+	background:rgb(0,100,0);
+	text-align:center;
+}
+.menu-bar ul
+{
+	display:inline-flex;
+	list-style: nine;
+	color:#fff;
+}
+ .menu-bar ul li
+{
+	width:140px;
+	margin:15px;
+	padding:15px;
+}
+ .menu-bar ul li a
+{
+	text-decoration:none;
+	color: #fff;
+}
+.menu-bar ul li:hover
+{
+	background:#2bab0d;
+    border-radius:3px;
+}
+.menu-bar .fa
+{
+	margin-right:6px;
+	margin-left:6px;
+}
+ .sub-menu
+{
+	display:none;
+}
+.sub-menu
+{
+	display:none;
+}
+ .menu-bar ul li:hover .sub-menu
+{
+	display:block;
+	position:absolute;
+	background:rgb(0,100,0);
+	margin-top:15px;
+	margin-left:10px;
+
+}
+.menu-bar ul li:hover .sub-menu-ul
+{
+	display:block;
+	margin:8px;
+}
+.menu-bar ul li:hover .sub-menu ul li
+{
+	width:120px;
+	padding:10px;
+	border-bottom:1px dotted #fff;
+	border-radius:0px;
+	text-align:left;
+	
+}
+.sub-menu-1
+{
+	display:none;
+}
+.menu-bar ul li:hover .sub-menu-1
+{
+	display:block;
+	position:absolute;
+	background:rgb(0,100,0);
+	margin-top:15px;
+	margin-left:10px;
+	text-align:left;
+
+}
+.sub-menu-2
+{
+	display:none;
+}
+.menu-bar ul li:hover .sub-menu-2
+{   
+    display:block;
+	position:absolute;
+	background:rgb(0,100,0);
+	margin-top:10px;
+	margin-left:10px;
+	text-align:left;
+
+}
+.image
+{
+	padding:5px;
+	margin:5px;
+}
+h2
+{
+	color:red;
+}
+.image marquee
+{
+	padding:2px;
+	margin:2px;
+	background-color:green;
+	color:#fff;
+}
+.image img
+{
+	background-image:url("..image/jahid3.jpg");
+}
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+ 
+ 
+
+
+
+
+
+
+
+
+	
